@@ -1,0 +1,84 @@
+.jingle-box {
+	border: 1pt solid #111;
+	border-radius: 1px;
+	padding: 3pt;
+	width: 90%;
+	vertical-align: middle;
+
+}
+
+body {
+	font-family: sans-serif;
+	padding: 4pt;
+	margin: 0pt;
+}
+
+button {
+	padding: 6pt;
+	border-radius: 2px;
+	border: #050505 1pt solid;
+	cursor: pointer;
+}
+
+.play-button:disabled {
+	background-color: #353;
+}
+
+.play-button:enabled {
+	background-color: #494;
+}
+
+.play-button:enabled:hover {
+	background-color: #4f4;
+}
+
+.pause-button:disabled {
+	background-color: #553;
+}
+
+.pause-button:enabled {
+	background-color: #994;
+}
+
+.pause-button:enabled:hover {
+	background-color: #ff4;
+}
+
+.stop-button {
+	background-color: #944;
+}
+
+.stop-button:hover {
+	background-color: #f44;
+}
+
+.eject-button:disabled {
+	background-color: #533;
+}
+
+.eject-button:enabled {
+	background-color: #944;
+}
+
+.eject-button:enabled:hover {
+	background-color: #f44;
+}
+
+table.banded {
+	tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+}
+
+.DeckButton {
+	display: inline;
+	padding:3.3pt !important;
+}
+
+input[type=range][orient=vertical] {
+	writing-mode: bt-lr; /* IE */
+	-webkit-appearance: slider-vertical; /* WebKit */
+	width: 8px;
+	height: 175px;
+	padding: 0 5px;
+}
