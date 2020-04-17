@@ -1,3 +1,4 @@
+<!-- Start of playstopfuns.php file -->
 <script>
 function playJ1() {
 	j1.play();
@@ -180,3 +181,4 @@ function stopJ14() {
 	j14stop.style.display = "none";
 }
 </script>
+<!-- End of playstopfuns.php file -->

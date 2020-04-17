@@ -1,3 +1,4 @@
+<!-- Start of playstopbuttons.php file -->
 <script>
 // Play and Pause Buttons
 
@@ -209,3 +210,4 @@ function stopSFX8() {
 	sfx8stop.style.display = "none";
 }
 </script>
+<!-- End of playstopbuttons.php file -->

@@ -1,6 +1,8 @@
+<!-- Start of header.php file -->
 <!DOCTYPE html>
 <html>
 <head>
+	<?php $version = "Beta 0.1.7" ?>
 	<!-- Google Analytics -->
 	<!-- Global Site Tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-145359620-1"></script>
@@ -32,3 +34,4 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body onload="load()">
+<!-- End of header.php file -->

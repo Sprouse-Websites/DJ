@@ -1,3 +1,4 @@
+<!-- Start of footer.php file -->
 <script type="text/javascript">
 
 function load() {
@@ -6,5 +7,7 @@ function load() {
 	getDeckTimes();
 }
 </script>
+<footer><?php echo $version; ?></footer>
 </body>
 </html>
+<!-- End of footer.php file -->

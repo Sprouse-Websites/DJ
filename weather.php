@@ -1,3 +1,4 @@
+<!-- Start of weather.php file -->
 <?php
 $apiKey1 = "bf06ed6c271fb0b0fa20525bfe56a1a6";
 $cityId1 = "2643743";
@@ -161,3 +162,4 @@ function getDateTime() {
 
 
 </script>
+<!-- End of weather.php file -->

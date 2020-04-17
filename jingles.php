@@ -1,3 +1,4 @@
+<!-- Start of jingles.php file -->
 <b>Jingles</b> Bank:
 <button type="button" onclick="stationjingles()" style="padding:6pt;border:1.6pt solid;">Station Jingles</button>
 <button type="button" onclick="communityjingles()" style="padding:6pt;border:1.6pt solid;">Community Jingles</button>
@@ -6,7 +7,7 @@
 <table id="station-jingles" style="text-align:center; width:100%;">
 	<tr>
 		<td>
-			<audio id="jingle1" onended="stopJ1()" src="jingles/LTBRL Fing Silent.mp3" type="audio/mp3">
+			<audio id="jingle1" onended="stopJ1()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Fing Silent.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j1play" onclick="playJ1()" class=" play-button">
@@ -17,7 +18,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle2" onended="stopJ2()" src="jingles/LTBRL Fing Beat.mp3" type="audio/mp3">
+			<audio id="jingle2" onended="stopJ2()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Fing Beat.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j2play" onclick="playJ2()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -26,7 +27,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle3" onended="stopJ3()" src="jingles/LTBRL Fing Full.mp3" type="audio/mp3">
+			<audio id="jingle3" onended="stopJ3()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Fing Full.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j3play" onclick="playJ3()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -35,7 +36,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle10" onended="stopJ10()" src="jingles/LTBRL Fing Pulse.mp3" type="audio/mp3">
+			<audio id="jingle10" onended="stopJ10()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Fing Pulse.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j10play" onclick="playJ10()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -44,7 +45,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle11" onended="stopJ11()" src="jingles/LTBRL Fing Rotation.mp3" type="audio/mp3">
+			<audio id="jingle11" onended="stopJ11()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Fing Rotation.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j11play" onclick="playJ11()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -55,7 +56,7 @@
 	</tr>
 	<tr>
 		<td>
-			<audio id="jingle4" onended="stopJ4()" src="jingles/LTBRL Repeat Silent.mp3" type="audio/mp3">
+			<audio id="jingle4" onended="stopJ4()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Repeat Silent.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j4play" onclick="playJ4()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -64,7 +65,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle5" onended="stopJ5()" src="jingles/LTBRL Repeat Radar.mp3" type="audio/mp3">
+			<audio id="jingle5" onended="stopJ5()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Repeat Radar.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j5play" onclick="playJ5()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -73,7 +74,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle6" onended="stopJ6()" src="jingles/LTBRL Repeat Full.mp3" type="audio/mp3">
+			<audio id="jingle6" onended="stopJ6()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Repeat Full.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j6play" onclick="playJ6()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -82,7 +83,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle7" onended="stopJ7()" src="jingles/LTBRL Down Silent.mp3" type="audio/mp3">
+			<audio id="jingle7" onended="stopJ7()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Down Silent.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j7play" onclick="playJ7()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -91,7 +92,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle8" onended="stopJ8()" src="jingles/LTBRL Down Radar.mp3" type="audio/mp3">
+			<audio id="jingle8" onended="stopJ8()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Down Radar.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j8play" onclick="playJ8()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -100,7 +101,7 @@
 			</div>
 		</td>
 		<td>
-			<audio id="jingle9" onended="stopJ9()" src="jingles/LTBRL Down Full.mp3" type="audio/mp3">
+			<audio id="jingle9" onended="stopJ9()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Down Full.mp3" type="audio/mp3">
 			</audio>
 			<div class="jingle-box">
 				<button type="button" name="button" id="j9play" onclick="playJ9()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -115,7 +116,7 @@
 	<table>
 		<tr>
 			<td>
-				<audio id="jingle12" onended="stopJ12()" src="jingles/LTBR Socials Silent.mp3" type="audio/mp3">
+				<audio id="jingle12" onended="stopJ12()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBR Socials Silent.mp3" type="audio/mp3">
 				</audio>
 				<div class="jingle-box">
 					<button type="button" name="button" id="j12play" onclick="playJ12()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -124,7 +125,7 @@
 				</div>
 			</td>
 			<td>
-				<audio id="jingle13" onended="stopJ13()" src="jingles/LTBR Socials Radar.mp3" type="audio/mp3">
+				<audio id="jingle13" onended="stopJ13()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBR Socials Radar.mp3" type="audio/mp3">
 				</audio>
 				<div class="jingle-box">
 					<button type="button" name="button" id="j13play" onclick="playJ13()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -133,7 +134,7 @@
 				</div>
 			</td>
 			<td>
-				<audio id="jingle14" onended="stopJ14()" src="jingles/LTBR Socials Full.mp3" type="audio/mp3">
+				<audio id="jingle14" onended="stopJ14()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBR Socials Full.mp3" type="audio/mp3">
 				</audio>
 				<div class="jingle-box">
 					<button type="button" name="button" id="j14play" onclick="playJ14()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -157,7 +158,7 @@
 		<table id="joel-show-jingles">
 			<tr>
 				<td>
-					<audio id="joeljingle1" onended="stopJoel1()" src="jingles/EDM Mix Eastern Promise.mp3" type="audio/mp3">
+					<audio id="joeljingle1" onended="stopJoel1()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/EDM Mix Eastern Promise.mp3" type="audio/mp3">
 					</audio>
 					<div class="jingle-box">
 						<button type="button" name="button" id="joel1play" onclick="playJoel1()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -166,7 +167,7 @@
 					</div>
 				</td>
 				<td>
-					<audio id="joeljingle2" onended="stopJoel2()" src="jingles/EDM Mix Alumium 1.mp3" type="audio/mp3">
+					<audio id="joeljingle2" onended="stopJoel2()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/EDM Mix Alumium 1.mp3" type="audio/mp3">
 					</audio>
 					<div class="jingle-box">
 						<button type="button" name="button" id="joel2play" onclick="playJoel2()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -179,7 +180,7 @@
 		<table id="ozey-show-jingles" style="display:none;">
 			<tr>
 				<td>
-					<audio id="ozeyjingle1" onended="stopOzey1()" src="jingles/LTBRL Ozey Silent.mp3" type="audio/mp3">
+					<audio id="ozeyjingle1" onended="stopOzey1()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Ozey Silent.mp3" type="audio/mp3">
 					</audio>
 					<div class="jingle-box">
 						<button type="button" name="button" id="ozey1play" onclick="playOzey1()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -188,7 +189,7 @@
 					</div>
 				</td>
 				<td>
-					<audio id="ozeyjingle2" onended="stopOzey2()" src="jingles/LTBRL Ozey Radar.mp3" type="audio/mp3">
+					<audio id="ozeyjingle2" onended="stopOzey2()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Ozey Radar.mp3" type="audio/mp3">
 					</audio>
 					<div class="jingle-box">
 						<button type="button" name="button" id="ozey2play" onclick="playOzey2()" class="play-button"><i class="fas fa-play"></i></button>
@@ -197,7 +198,7 @@
 					</div>
 				</td>
 				<td>
-					<audio id="ozeyjingle3" onended="stopOzey3()" src="jingles/LTBRL Ozey Indie.mp3" type="audio/mp3">
+					<audio id="ozeyjingle3" onended="stopOzey3()" src="http://www.sprousewebsites.co.uk/hosted-files/dj/jingles/LTBRL Ozey Indie.mp3" type="audio/mp3">
 					</audio>
 					<div class="jingle-box">
 						<button type="button" name="button" id="ozey3play" onclick="playOzey3()" class=" play-button"><i class="fas fa-play"></i></button>
@@ -214,7 +215,7 @@
 		<table style="text-align:center; width:100%;">
 			<tr>
 				<td>
-					<button type="button" name="button" onclick="sfxFav()">Favourites</button>
+					<!-- <button type="button" name="button" onclick="sfxFav()">Favourites</button> -->
 					<button type="button" name="button" onclick="sfxLoops()">Loops</button>
 					<button type="button" name="button" onclick="sfxlist1()">1</button>
 					<button type="button" name="button" onclick="sfxlist2()">2</button>
@@ -222,7 +223,7 @@
 			</tr>
 		</table>
 
-		<table id="sfx-fav">
+		<!-- <table id="sfx-fav">
 			<tr>
 				<td>
 					<audio id="sfxfav1" onended="stopSFXFav1()" src="sfx/EDM Mix Eastern Promise.mp3" type="audio/mp3">
@@ -234,8 +235,8 @@
 					</div>
 				</td>
 			</tr>
-		</table>
-		<table id="loops-list" style="display:none;">
+		</table> -->
+		<table id="loops-list" >
 			<tr>
 				<td>
 					<audio id="loop1" onended="stopLoop1()" src="sfx/61321_mansardian_news-background.mp3" type="audio/mp3">
@@ -302,76 +303,146 @@
 			</tr>
 		</table>
 	</div>
-
-	<?php
-	include 'playstopfuns.php';
-	include 'playstopbuttons.php';
-	?>
-
 	<script type="text/javascript">
-	function sfx() {
-		document.getElementById("station-jingles").style.display = "none";
-		document.getElementById("show-jingles").style.display = "none";
-		document.getElementById("community-jingles").style.display = "none";
-		document.getElementById("sfxlist").style.display = "block";
-	}
+	var j1 = document.getElementById("jingle1");
+	var j1play = document.getElementById("j1play");
+	var j1stop = document.getElementById("j1stop");
+	var j2 = document.getElementById("jingle2");
+	var j2play = document.getElementById("j2play");
+	var j2stop = document.getElementById("j2stop");
+	var j3 = document.getElementById("jingle3");
+	var j3play = document.getElementById("j3play");
+	var j3stop = document.getElementById("j3stop");
+	var j4 = document.getElementById("jingle4");
+	var j4play = document.getElementById("j4play");
+	var j4stop = document.getElementById("j4stop");
+	var j5 = document.getElementById("jingle5");
+	var j5play = document.getElementById("j5play");
+	var j5stop = document.getElementById("j5stop");
+	var j6 = document.getElementById("jingle6");
+	var j6play = document.getElementById("j6play");
+	var j6stop = document.getElementById("j6stop");
+	var j7 = document.getElementById("jingle7");
+	var j7play = document.getElementById("j7play");
+	var j7stop = document.getElementById("j7stop");
+	var j8 = document.getElementById("jingle8");
+	var j8play = document.getElementById("j8play");
+	var j8stop = document.getElementById("j8stop");
+	var j9 = document.getElementById("jingle9");
+	var j9play = document.getElementById("j9play");
+	var j9stop = document.getElementById("j9stop");
+	var j10 = document.getElementById("jingle10");
+	var j10play = document.getElementById("j10play");
+	var j10stop = document.getElementById("j10stop");
+	var j11 = document.getElementById("jingle11");
+	var j11play = document.getElementById("j11play");
+	var j11stop = document.getElementById("j11stop");
+	var j12 = document.getElementById("jingle12");
+	var j12play = document.getElementById("j12play");
+	var j12stop = document.getElementById("j12stop");
+	var j13 = document.getElementById("jingle13");
+	var j13play = document.getElementById("j13play");
+	var j13stop = document.getElementById("j13stop");
+	var j14 = document.getElementById("jingle14");
+	var j14play = document.getElementById("j14play");
+	var j14stop = document.getElementById("j14stop");
 
-	function showjingles() {
-		document.getElementById("show-jingles").style.display = "block";
-		document.getElementById("station-jingles").style.display = "none";
-		document.getElementById("community-jingles").style.display = "none";
-		document.getElementById("sfxlist").style.display = "none";
-	}
 
-	function stationjingles() {
-		document.getElementById("station-jingles").style.display = "block";
-		document.getElementById("show-jingles").style.display = "none";
-		document.getElementById("community-jingles").style.display = "none";
-		document.getElementById("sfxlist").style.display = "none";
-	}
+	var joel1 = document.getElementById("joeljingle1");
+	var joel1play = document.getElementById("joel1play");
+	var joel1stop = document.getElementById("joel1stop");
+	var joel2 = document.getElementById("joeljingle2");
+	var joel2play = document.getElementById("joel2play");
+	var joel2stop = document.getElementById("joel2stop");
+	var ozey1 = document.getElementById("ozeyjingle1");
+	var ozey1play = document.getElementById("ozey1play");
+	var ozey1stop = document.getElementById("ozey1stop");
+	var ozey2 = document.getElementById("ozeyjingle2");
+	var ozey2play = document.getElementById("ozey2play");
+	var ozey2stop = document.getElementById("ozey2stop");
+	var ozey3 = document.getElementById("ozeyjingle3");
+	var ozey3play = document.getElementById("ozey3play");
+	var ozey3stop = document.getElementById("ozey3stop");
+	var loop1 = document.getElementById("loop1");
+	var loop1play = document.getElementById("loop1play");
+	var loop1stop = document.getElementById("loop1stop");
+	var loop2 = document.getElementById("loop2");
+	var loop2play = document.getElementById("loop2play");
+	var loop2stop = document.getElementById("loop2stop");
 
-	function communityjingles() {
-		document.getElementById("community-jingles").style.display = "block";
-		document.getElementById("show-jingles").style.display = "none";
-		document.getElementById("station-jingles").style.display = "none";
-		document.getElementById("sfxlist").style.display = "none";
-	}
-
-	function showjoel() {
-		document.getElementById("joel-show-jingles").style.display = "block";
-		document.getElementById("ozey-show-jingles").style.display = "none";
-	}
-
-	function showozey() {
-		document.getElementById("joel-show-jingles").style.display = "none";
-		document.getElementById("ozey-show-jingles").style.display = "block";
-	}
-
-	function sfxFav() {
-		document.getElementById("sfx-list-1").style.display = "none";
-		document.getElementById("sfx-fav").style.display = "block";
-		document.getElementById("loops-list").style.display = "none";
-		document.getElementById("sfx-list-2").style.display = "none";
-	}
-
-	function sfxLoops() {
-		document.getElementById("sfx-list-1").style.display = "none";
-		document.getElementById("sfx-fav").style.display = "none";
-		document.getElementById("loops-list").style.display = "block";
-		document.getElementById("sfx-list-2").style.display = "none";
-	}
-
-	function sfxlist1() {
-		document.getElementById("sfx-list-1").style.display = "block";
-		document.getElementById("sfx-fav").style.display = "none";
-		document.getElementById("loops-list").style.display = "none";
-		document.getElementById("sfx-list-2").style.display = "none";
-	}
-
-	function sfxlist2() {
-		document.getElementById("sfx-fav").style.display = "none";
-		document.getElementById("loops-list").style.display = "none";
-		document.getElementById("sfx-list-1").style.display = "none";
-		document.getElementById("sfx-list-2").style.display = "block";
-	}
 </script>
+
+<?php
+include 'vars.php';
+include 'playstopfuns.php';
+include 'playstopbuttons.php';
+?>
+
+<script type="text/javascript">
+function sfx() {
+	document.getElementById("station-jingles").style.display = "none";
+	document.getElementById("show-jingles").style.display = "none";
+	document.getElementById("community-jingles").style.display = "none";
+	document.getElementById("sfxlist").style.display = "block";
+}
+
+function showjingles() {
+	document.getElementById("show-jingles").style.display = "block";
+	document.getElementById("station-jingles").style.display = "none";
+	document.getElementById("community-jingles").style.display = "none";
+	document.getElementById("sfxlist").style.display = "none";
+}
+
+function stationjingles() {
+	document.getElementById("station-jingles").style.display = "block";
+	document.getElementById("show-jingles").style.display = "none";
+	document.getElementById("community-jingles").style.display = "none";
+	document.getElementById("sfxlist").style.display = "none";
+}
+
+function communityjingles() {
+	document.getElementById("community-jingles").style.display = "block";
+	document.getElementById("show-jingles").style.display = "none";
+	document.getElementById("station-jingles").style.display = "none";
+	document.getElementById("sfxlist").style.display = "none";
+}
+
+function showjoel() {
+	document.getElementById("joel-show-jingles").style.display = "block";
+	document.getElementById("ozey-show-jingles").style.display = "none";
+}
+
+function showozey() {
+	document.getElementById("joel-show-jingles").style.display = "none";
+	document.getElementById("ozey-show-jingles").style.display = "block";
+}
+
+function sfxFav() {
+	document.getElementById("sfx-list-1").style.display = "none";
+	document.getElementById("sfx-fav").style.display = "block";
+	document.getElementById("loops-list").style.display = "none";
+	document.getElementById("sfx-list-2").style.display = "none";
+}
+
+function sfxLoops() {
+	document.getElementById("sfx-list-1").style.display = "none";
+	document.getElementById("sfx-fav").style.display = "none";
+	document.getElementById("loops-list").style.display = "block";
+	document.getElementById("sfx-list-2").style.display = "none";
+}
+
+function sfxlist1() {
+	document.getElementById("sfx-list-1").style.display = "block";
+	document.getElementById("sfx-fav").style.display = "none";
+	document.getElementById("loops-list").style.display = "none";
+	document.getElementById("sfx-list-2").style.display = "none";
+}
+
+function sfxlist2() {
+	document.getElementById("sfx-fav").style.display = "none";
+	document.getElementById("loops-list").style.display = "none";
+	document.getElementById("sfx-list-1").style.display = "none";
+	document.getElementById("sfx-list-2").style.display = "block";
+}
+</script>
+<!-- End of jingles.php file -->

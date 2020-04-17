@@ -1,3 +1,4 @@
+<!-- Start of playlist.php file -->
 <div class="l4 songSearch s12">
 	<table>
 		<tr>
@@ -10,14 +11,14 @@
 		</tr>
 	</table>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 var $playlist = $("playlist.php");
-reloadPlaylist () {
+function reloadPlaylist () {
 	$playlist.load("playlist.php");
 }
-</script>
+</script> -->
 
-	<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for songs.." title="Type in a Song Name">
+	<input type="text" id="filterbox" onkeyup="filter()" placeholder="Search for songs.." title="Type in a Song Name">
 	<div style="overflow:auto; height:240pt;">
 		<?php
 		function getSongs() {
@@ -81,7 +82,7 @@ reloadPlaylist () {
 						echo "</tr>";
 						$varname = "URL".$row['id'];
 						$smarks = "'";
-						$URL = 'songs/Music/'.$row['MainArtist']."/".$row['Album']."/".$row['Song'].".mp3";
+						$URL = 'http://sprousewebsites.co.uk/hosted-files/dj/songs/Music/'.$row['MainArtist']."/".$row['Album']."/".$row['Song'].".mp3";
 						$sourcea = '<audio id="DeckAAudioEl" src="'.$URL.'" style="width:100%;">Your browser does not support audio elements</audio>';
 						$sourceb = '<audio id="DeckBAudioEl" src="'.$URL.'" style="width:100%;">Your browser does not support audio elements</audio>';
 						echo "<script>
@@ -109,7 +110,7 @@ reloadPlaylist () {
 						";
 					}
 					echo "</table>";
-					echo mysqli_num_rows($result)." Songs found";
+					echo "<span id='songsfound'>". mysqli_num_rows($result)." Songs found in the Library</span>";
 					// Free result set
 					mysqli_free_result($result);
 				} else{
@@ -130,9 +131,10 @@ reloadPlaylist () {
 
 
 	<script>
-	function myFunction() {
+	function filter() {
+		var f = 0;
 		var input, filter, table, tr, td, i, txtValue;
-		input = document.getElementById("myInput");
+		input = document.getElementById("filterbox");
 		filter = input.value.toUpperCase();
 		table = document.getElementById("myTable");
 		tr = table.getElementsByTagName("tr");
@@ -142,6 +144,8 @@ reloadPlaylist () {
 				txtValue = td.textContent || td.innerText;
 				if (txtValue.toUpperCase().indexOf(filter) > -1) {
 					tr[i].style.display = "";
+					f = f + 1;
+					document.getElementById("songsfound").innerHTML = f + " songs found matching query \"" + document.getElementById("filterbox").value + "\"";
 				} else {
 					tr[i].style.display = "none";
 				}
@@ -190,3 +194,4 @@ function sortTable() {
 
 <div class="l8">
 </div>
+<!-- End of playlist.php file -->

@@ -1,66 +1,11 @@
-<style media="screen">
+<!-- Start of decks.php file -->
+<style>
 .deck {
 	width:45%;
 	display: inline-block;
 }
 </style>
-<script>
-function getDeckTimes() {
-	var DeckADuration = document.getElementById("DeckAAudioEl").duration;
-	var DeckACurrent = document.getElementById("DeckAAudioEl").currentTime;
-	var DeckARemaining = DeckADuration - DeckACurrent;
 
-	var DeckADurationH = Math.floor(DeckADuration / 60 / 60);
-	var DeckADurationM = Math.floor(DeckADuration / 60) - (DeckADurationH * 60);
-	var DeckADurationS = DeckADuration % 60;
-	var DeckADurationS = DeckADurationS.toFixed(2);
-	var DeckADurationF = DeckADurationH.toString().padStart(2, '0') + ':' + DeckADurationM.toString().padStart(2, '0') + ':' + DeckADurationS.toString().padStart(2, '0');
-
-	var DeckACurrentH = Math.floor(DeckACurrent / 60 / 60);
-	var DeckACurrentM = Math.floor(DeckACurrent / 60) - (DeckACurrentH * 60);
-	var DeckACurrentS = DeckACurrent % 60;
-	var DeckACurrentS = DeckACurrentS.toFixed(2);
-	var DeckACurrentF = DeckACurrentH.toString().padStart(2, '0') + ':' + DeckACurrentM.toString().padStart(2, '0') + ':' + DeckACurrentS.toString().padStart(2, '0');
-
-	var DeckARemainingH = Math.floor(DeckARemaining / 60 / 60);
-	var DeckARemainingM = Math.floor(DeckARemaining / 60) - (DeckARemainingH * 60);
-	var DeckARemainingS = DeckARemaining % 60;
-	var DeckARemainingS = DeckARemainingS.toFixed(2);
-	var DeckARemainingF = DeckARemainingH.toString().padStart(2, '0') + ':' + DeckARemainingM.toString().padStart(2, '0') + ':' + DeckARemainingS.toString().padStart(2, '0');
-	document.getElementById("DeckACurrentText").innerHTML = DeckACurrentF;
-	document.getElementById("DeckADurationText").innerHTML = DeckADurationF;
-	document.getElementById("DeckARemainingText").innerHTML = DeckARemainingF;
-
-
-	var DeckBDuration = document.getElementById("DeckBAudioEl").duration;
-	var DeckBCurrent = document.getElementById("DeckBAudioEl").currentTime;
-	var DeckBRemaining = DeckBDuration - DeckBCurrent;
-
-	var DeckBDurationH = Math.floor(DeckBDuration / 60 / 60);
-	var DeckBDurationM = Math.floor(DeckBDuration / 60) - (DeckBDurationH * 60);
-	var DeckBDurationS = DeckBDuration % 60;
-	var DeckBDurationS = DeckBDurationS.toFixed(2);
-	var DeckBDurationF = DeckBDurationH.toString().padStart(2, '0') + ':' + DeckBDurationM.toString().padStart(2, '0') + ':' + DeckBDurationS.toString().padStart(2, '0');
-
-	var DeckBCurrentH = Math.floor(DeckBCurrent / 60 / 60);
-	var DeckBCurrentM = Math.floor(DeckBCurrent / 60) - (DeckBCurrentH * 60);
-	var DeckBCurrentS = DeckBCurrent % 60;
-	var DeckBCurrentS = DeckBCurrentS.toFixed(2);
-	var DeckBCurrentF = DeckBCurrentH.toString().padStart(2, '0') + ':' + DeckBCurrentM.toString().padStart(2, '0') + ':' + DeckBCurrentS.toString().padStart(2, '0');
-
-	var DeckBRemainingH = Math.floor(DeckBRemaining / 60 / 60);
-	var DeckBRemainingM = Math.floor(DeckBRemaining / 60) - (DeckBRemainingH * 60);
-	var DeckBRemainingS = DeckBRemaining % 60;
-	var DeckBRemainingS = DeckBRemainingS.toFixed(1);
-	var DeckBRemainingF = DeckBRemainingH.toString().padStart(2, '0') + ':' + DeckBRemainingM.toString().padStart(2, '0') + ':' + DeckBRemainingS.toString().padStart(2, '0');
-	document.getElementById("DeckBCurrentText").innerHTML = DeckBCurrentF;
-	document.getElementById("DeckBDurationText").innerHTML = DeckBDurationF;
-	document.getElementById("DeckBRemainingText").innerHTML = DeckBRemainingF;
-	setTimeout(getDeckTimes, 50);
-};
-
-
-</script>
 
 <div id="DeckA" class="deck">
 	<div id="DeckAAudioDiv" class="">
@@ -155,11 +100,11 @@ function getDeckTimes() {
 	</div>
 </div>
 
-<script>
+<script type="text/javascript">
 function DeckAPlay() {
-	document.getElementById('DeckAAudioEl').play();
-	document.getElementById('DeckAPlay').style.display = "none";
-	document.getElementById('DeckAPause').style.display = "inline-block";
+	document.getElementById("DeckAAudioEl").play();
+	document.getElementById("DeckAPlay").style.display = "none";
+	document.getElementById("DeckAPause").style.display = "inline-block";
 }
 
 function DeckAPause() {
@@ -178,7 +123,7 @@ function DeckAEject() {
 		document.getElementById('DeckAEject').disabled = true;
 	}
 	else {
-
+		var fafddgaj = "3";
 	}
 }
 
@@ -198,7 +143,7 @@ function DeckAVol() {
 	var volA = document.getElementById("DeckAVol").value;
 	var volANew = volA / 100;
 	document.getElementById('DeckAAudioEl').volume = volANew;
-	console.log(volA);
+	console.log("Volume for Deck A set to " + volA);
 	if (volA == "0") {
 		document.getElementById("DeckAMute").style.display = "inline";
 		document.getElementById("DeckAVolLow").style.display = "none";
@@ -220,7 +165,6 @@ function DeckAVol() {
 		document.getElementById("DeckAVolUp").style.display = "inline";
 	}
 }
-
 
 
 function DeckBPlay() {
@@ -245,7 +189,7 @@ function DeckBEject() {
 		document.getElementById('DeckBEject').disabled = true;
 	}
 	else {
-
+		var fafddgaj = "3";
 	}
 }
 
@@ -265,6 +209,7 @@ function DeckBVol() {
 	var volB = document.getElementById("DeckBVol").value;
 	var volBNew = volB / 100;
 	document.getElementById('DeckBAudioEl').volume = volBNew;
+	console.log("Volume for Deck B set to " + volB);
 	if (volB == "0") {
 		document.getElementById("DeckBMute").style.display = "inline";
 		document.getElementById("DeckBVolLow").style.display = "none";
@@ -282,3 +227,61 @@ function DeckBVol() {
 	}
 }
 </script>
+
+<script>
+function getDeckTimes() {
+	var DeckADuration = document.getElementById("DeckAAudioEl").duration;
+	var DeckACurrent = document.getElementById("DeckAAudioEl").currentTime;
+	var DeckARemaining = DeckADuration - DeckACurrent;
+
+	var DeckADurationH = Math.floor(DeckADuration / 60 / 60);
+	var DeckADurationM = Math.floor(DeckADuration / 60) - (DeckADurationH * 60);
+	var DeckADurationS = DeckADuration % 60;
+	var DeckADurationS = DeckADurationS.toFixed(2);
+	var DeckADurationF = DeckADurationH.toString().padStart(2, '0') + ':' + DeckADurationM.toString().padStart(2, '0') + ':' + DeckADurationS.toString().padStart(2, '0');
+
+	var DeckACurrentH = Math.floor(DeckACurrent / 60 / 60);
+	var DeckACurrentM = Math.floor(DeckACurrent / 60) - (DeckACurrentH * 60);
+	var DeckACurrentS = DeckACurrent % 60;
+	var DeckACurrentS = DeckACurrentS.toFixed(2);
+	var DeckACurrentF = DeckACurrentH.toString().padStart(2, '0') + ':' + DeckACurrentM.toString().padStart(2, '0') + ':' + DeckACurrentS.toString().padStart(2, '0');
+
+	var DeckARemainingH = Math.floor(DeckARemaining / 60 / 60);
+	var DeckARemainingM = Math.floor(DeckARemaining / 60) - (DeckARemainingH * 60);
+	var DeckARemainingS = DeckARemaining % 60;
+	var DeckARemainingS = DeckARemainingS.toFixed(2);
+	var DeckARemainingF = DeckARemainingH.toString().padStart(2, '0') + ':' + DeckARemainingM.toString().padStart(2, '0') + ':' + DeckARemainingS.toString().padStart(2, '0');
+	document.getElementById("DeckACurrentText").innerHTML = DeckACurrentF;
+	document.getElementById("DeckADurationText").innerHTML = DeckADurationF;
+	document.getElementById("DeckARemainingText").innerHTML = DeckARemainingF;
+
+
+	var DeckBDuration = document.getElementById("DeckBAudioEl").duration;
+	var DeckBCurrent = document.getElementById("DeckBAudioEl").currentTime;
+	var DeckBRemaining = DeckBDuration - DeckBCurrent;
+
+	var DeckBDurationH = Math.floor(DeckBDuration / 60 / 60);
+	var DeckBDurationM = Math.floor(DeckBDuration / 60) - (DeckBDurationH * 60);
+	var DeckBDurationS = DeckBDuration % 60;
+	var DeckBDurationS = DeckBDurationS.toFixed(2);
+	var DeckBDurationF = DeckBDurationH.toString().padStart(2, '0') + ':' + DeckBDurationM.toString().padStart(2, '0') + ':' + DeckBDurationS.toString().padStart(2, '0');
+
+	var DeckBCurrentH = Math.floor(DeckBCurrent / 60 / 60);
+	var DeckBCurrentM = Math.floor(DeckBCurrent / 60) - (DeckBCurrentH * 60);
+	var DeckBCurrentS = DeckBCurrent % 60;
+	var DeckBCurrentS = DeckBCurrentS.toFixed(2);
+	var DeckBCurrentF = DeckBCurrentH.toString().padStart(2, '0') + ':' + DeckBCurrentM.toString().padStart(2, '0') + ':' + DeckBCurrentS.toString().padStart(2, '0');
+
+	var DeckBRemainingH = Math.floor(DeckBRemaining / 60 / 60);
+	var DeckBRemainingM = Math.floor(DeckBRemaining / 60) - (DeckBRemainingH * 60);
+	var DeckBRemainingS = DeckBRemaining % 60;
+	var DeckBRemainingS = DeckBRemainingS.toFixed(1);
+	var DeckBRemainingF = DeckBRemainingH.toString().padStart(2, '0') + ':' + DeckBRemainingM.toString().padStart(2, '0') + ':' + DeckBRemainingS.toString().padStart(2, '0');
+	document.getElementById("DeckBCurrentText").innerHTML = DeckBCurrentF;
+	document.getElementById("DeckBDurationText").innerHTML = DeckBDurationF;
+	document.getElementById("DeckBRemainingText").innerHTML = DeckBRemainingF;
+	setTimeout(getDeckTimes, 50);
+}
+</script>
+
+<!-- End of decks.php file -->
