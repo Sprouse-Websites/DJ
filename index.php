@@ -1,6 +1,5 @@
 <?php
 include 'header.php';
-include 'http://www.sprousewebsites.co.uk/hidden/music-db-secret.php';
 include 'vars.php';
 include 'decks.php';
 include 'weather.php';
