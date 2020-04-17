@@ -22,6 +22,7 @@ button {
 
 .play-button:disabled {
 	background-color: #353;
+	cursor:default;
 }
 
 .play-button:enabled {
@@ -34,6 +35,7 @@ button {
 
 .pause-button:disabled {
 	background-color: #553;
+	cursor:default;
 }
 
 .pause-button:enabled {
@@ -54,6 +56,7 @@ button {
 
 .eject-button:disabled {
 	background-color: #533;
+	cursor:default;
 }
 
 .eject-button:enabled {
