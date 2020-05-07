@@ -17,7 +17,7 @@
 		<!-- <span>Ctrl + ?!</span> -->
 	</a>
 	<a href="help.php">
-		<i class="fas fa-question-circle"></i> Help
+		<i class="fas fa-info-circle"></i> Help
 		<!-- <span>Ctrl + ?!</span> -->
 	</a>
 </div>
