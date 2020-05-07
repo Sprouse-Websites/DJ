@@ -180,5 +180,44 @@ function stopJ14() {
 	j14play.style.display = "inline";
 	j14stop.style.display = "none";
 }
+
+function playJ15() {
+	j15.play();
+	j15play.style.display = "none";
+	j15stop.style.display = "inline";
+}
+
+function stopJ15() {
+	j15.pause();
+	j15.currentTime = 0;
+	j15play.style.display = "inline";
+	j15stop.style.display = "none";
+}
+
+function playJ16() {
+	j16.play();
+	j16play.style.display = "none";
+	j16stop.style.display = "inline";
+}
+
+function stopJ16() {
+	j16.pause();
+	j16.currentTime = 0;
+	j16play.style.display = "inline";
+	j16stop.style.display = "none";
+}
+
+function playJ17() {
+	j17.play();
+	j17play.style.display = "none";
+	j17stop.style.display = "inline";
+}
+
+function stopJ17() {
+	j17.pause();
+	j17.currentTime = 0;
+	j17play.style.display = "inline";
+	j17stop.style.display = "none";
+}
 </script>
 <!-- End of playstopfuns.php file -->
