@@ -2,10 +2,21 @@
 include 'header.php';
 include 'vars.php';
 include 'decks.php';
-include 'weather.php';
+?>
+<style media="screen">
+	.weatherbox:hover {
+		border: 1pt grey solid;
+		border: 19px;
+	}
+</style>
+<a href="weather.php" class="hidden weatherbox" target="_blank">
+	<?php
+	include 'widget.php';
+	?>
+</a>
+<?php
 include 'playlist.php';
 include 'jingles.php';
-include 'addtodeckjs.php';
 include 'rcm.php';
 ?>
 
