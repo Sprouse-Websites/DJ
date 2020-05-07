@@ -115,7 +115,7 @@ var songs = [
     "Best Song Ever",
     "Better When You're Gone",
     "Bibia Be Ye Ye",
-    "Birch(feat.Eliza Shaddad)"
+    "Birch(feat.Eliza Shaddad)",
     "Blame(feat.John Newman)",
     "Blame It on Me",
     "Bloodsteam",
@@ -309,4 +309,4 @@ var songs = [
 
 
 /*initiate the autocomplete function on the "myInput" element, and pass along the songs array as possible autocomplete values:*/
-autocomplete(document.getElementById("myInput"), songs);
+autocomplete(document.getElementById("filterbox"), songs);
