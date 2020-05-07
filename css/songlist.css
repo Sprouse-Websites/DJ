@@ -17,3 +17,15 @@
 	cursor: pointer;
 	border: 0pt;
 }
+
+th.playlistTableHeader {
+	cursor: pointer;
+}
+
+.PlaylistButton {
+	width: 49.7%;
+	border: 0pt;
+	border-radius: 1px;
+	background-color: #ddd;
+	margin-bottom: 2pt;
+}
