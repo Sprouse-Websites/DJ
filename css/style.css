@@ -1,3 +1,27 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar:hover {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  width: 6px;
+}
+
 .jingle-box {
 	border: 1pt solid #111;
 	border-radius: 1px;
@@ -67,12 +91,6 @@ button {
 	background-color: #f44;
 }
 
-table.banded {
-	tr:nth-child(even) {
-		background-color: #f2f2f2;
-	}
-}
-
 .DeckButton {
 	display: inline;
 	padding:3.3pt !important;
@@ -81,7 +99,32 @@ table.banded {
 input[type=range][orient=vertical] {
 	writing-mode: bt-lr; /* IE */
 	-webkit-appearance: slider-vertical; /* WebKit */
-	width: 8px;
-	height: 175px;
+	width: 9px;
 	padding: 0 5px;
+}
+
+.DisplayNone {
+	display: none;
+}
+
+a.hidden {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#Decks {
+	border: 1pt solid #999;
+	margin: 1pt;
+	padding: 3pt;
+	border-radius: 3px;
+	padding-right: 0pt;
+}
+
+.deck {
+	min-width: 47%;
+	display: inline-block;
+	border: 1pt solid #ccc;
+	padding: 3pt;
+	border-radius: 4px;
+	font-size: 11pt;
 }
