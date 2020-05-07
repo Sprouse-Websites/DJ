@@ -2,10 +2,14 @@
 <script type="text/javascript">
 
 function load() {
-	sortTable();
+	sortTableByArtist();
+	console.log("Playlist sorted");
 	getDateTime();
 	getDeckTimes();
+	offline();
+	updateShowModules();
 }
+console.log("Document Fully Loaded");
 </script>
 <footer><?php echo $version; ?></footer>
 </body>
