@@ -2,7 +2,7 @@
 <?php
 $apiKey1 = "bf06ed6c271fb0b0fa20525bfe56a1a6";
 $cityId1 = "2643743";
-$googleApiUrl1 = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId1 . "&lang=en&units=metric&APPID=" . $apiKey1;
+$googleApiUrl1 = "https://api.openweathermap.org/data/2.5/weather?id=" . $cityId1 . "&lang=en&units=metric&APPID=" . $apiKey1;
 
 $ch1 = curl_init();
 
@@ -20,7 +20,7 @@ $currentTime1 = time();
 
 $apiKey2 = "bf06ed6c271fb0b0fa20525bfe56a1a6";
 $cityId2 = "2643743";
-$googleApiUrl2 = "http://datapoint.metoffice.gov.uk/public/data/resource?key=" . $apiKey2;
+$googleApiUrl2 = "https://datapoint.metoffice.gov.uk/public/data/resource?key=" . $apiKey2;
 
 
 $curl = curl_init();
@@ -52,7 +52,7 @@ if ($err) {
 }
 
 
-$ch1 = curl_init();
+$ch2 = curl_init();
 
 curl_setopt($ch2, CURLOPT_HEADER, 0);
 curl_setopt($ch2, CURLOPT_RETURNTRANSFER, 1);
@@ -81,8 +81,7 @@ $currentTime2 = time();
 			<tr>
 				<td rowspan="2">
 					<?php
-					echo "<img src='http://sprousewebsites.co.uk/hosted-files/dj/media/weather/".$data1->weather[0]->icon.".png' class='weather-icon'>";
-					echo $data1->weather[0]->icon;
+					echo "<img src='https://sprousewebsitestest.com/dj/media/weather/".$data1->weather[0]->icon.".png' class='weather-icon'>";
 					?>
 					<br>
 					<?php echo ucwords($data1->weather[0]->description); ?>
@@ -169,6 +168,6 @@ function getDateTime() {
 
 </script>
 <script type="text/javascript">
-	console.log("Weather.php file loaded");
+	console.log("widget.php file loaded");
 </script>
 <!-- End of widget.php file -->

@@ -1,11 +1,12 @@
 <!-- Start of weather.php file -->
 <?php
+$page_name = "Weather";
+include 'head.php';
 include 'header.php';
 $apiKey1 = "bf06ed6c271fb0b0fa20525bfe56a1a6";
 $cityId1 = "2643743";
-$googleApiUrl1 = "http://api.openweathermap.org/data/2.5/weather?id=" . $cityId1 . "&lang=en&units=metric&APPID=" . $apiKey1;
-$googleApiUrl2 = "http://api.openweathermap.org/data/2.5/forecast/hourly?q=London&appid=".$apiKey1;
-echo $googleApiUrl2;
+$googleApiUrl1 = "https://api.openweathermap.org/data/2.5/weather?id=" . $cityId1 . "&lang=en&units=metric&APPID=" . $apiKey1;
+$googleApiUrl2 = "https://api.openweathermap.org/data/2.5/forecast/hourly?q=London&appid=".$apiKey1;
 
 $ch1 = curl_init();
 
@@ -23,7 +24,7 @@ $currentTime1 = time();
 
 $apiKey2 = "bf06ed6c271fb0b0fa20525bfe56a1a6";
 $cityId2 = "2643743";
-$googleApiUrl2 = "http://datapoint.metoffice.gov.uk/public/data/resource?key=" . $apiKey2;
+$googleApiUrl2 = "https://datapoint.metoffice.gov.uk/public/data/resource?key=" . $apiKey2;
 
 $ch2 = curl_init();
 
@@ -109,7 +110,7 @@ console.log("OpenWeatherAPI Data loaded");
 	if ($data1->weather[0]->icon == "03n") {
 		echo "<i class='fas fa-cloud weather-icon'></i>";
 	}
-	echo "<img src='http://sprousewebsites.co.uk/hosted-files/dj/media/weather/".$data1->weather[0]->icon.".png' class='weather-icon' height='150px'>";
+	echo "<img src='https://sprousewebsites.co.uk/hosted-files/dj/media/weather/".$data1->weather[0]->icon.".png' class='weather-icon' height='150px'>";
 	?>
 
 	<div class="weather-forecast">
