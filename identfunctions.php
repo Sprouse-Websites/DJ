@@ -28,6 +28,45 @@ function stopJoel2() {
 	joel2stop.style.display = "none";
 }
 
+function playJoel3() {
+	joel3.play();
+	joel3play.style.display = "none";
+	joel3stop.style.display = "inline";
+}
+
+function stopJoel3() {
+	joel3.pause();
+	joel3.currentTime = 0;
+	joel3play.style.display = "inline";
+	joel3stop.style.display = "none";
+}
+
+function playJoel4() {
+	joel4.play();
+	joel4play.style.display = "none";
+	joel4stop.style.display = "inline";
+}
+
+function stopJoel4() {
+	joel4.pause();
+	joel4.currentTime = 0;
+	joel4play.style.display = "inline";
+	joel4stop.style.display = "none";
+}
+
+function playJoel5() {
+	joel5.play();
+	joel5play.style.display = "none";
+	joel5stop.style.display = "inline";
+}
+
+function stopJoel5() {
+	joel5.pause();
+	joel5.currentTime = 0;
+	joel5play.style.display = "inline";
+	joel5stop.style.display = "none";
+}
+
 function playOzey1() {
 	ozey1.play();
 	ozey1play.style.display = "none";
