@@ -1,0 +1,27 @@
+#Decks {
+	border: 1pt solid #999;
+	margin: 1pt;
+	padding: 3pt;
+	border-radius: 3px;
+	padding-right: 0pt;
+}
+
+.deck {
+	min-width: 47%;
+	display: inline-block;
+	border: 1pt solid #ccc;
+	padding: 3pt;
+	border-radius: 4px;
+	font-size: 11pt;
+}
+
+input[type=range][orient=vertical] {
+	writing-mode: bt-lr; /* IE */
+	-webkit-appearance: slider-vertical; /* WebKit */
+	width: 9px;
+	padding: 0 5px;
+}
+
+input#DeckAVol, input#DeckBVol {
+    margin: 1pt;
+}
