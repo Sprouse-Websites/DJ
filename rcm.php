@@ -9,6 +9,12 @@
 		<span>Ctrl + P</span>
 	</a>
 	<hr/>
+	<a href="add.php" target="_blank">
+		<i class="fas fa-plus-circle"></i> Add song to Database
+	</a>
+	<a href="view.php" target="_blank">
+		<i class="fas fa-table"></i> View Database
+	</a>
 	<a href="feedback.php" target="_blank">
 		<i class="fas fa-comment"></i> Give Feedback
 	</a>
