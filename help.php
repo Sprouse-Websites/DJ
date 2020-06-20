@@ -9,7 +9,7 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('http://w3schools.com/w3images/forestbridge.jpg');
+  background-image: url('https://w3schools.com/w3images/forestbridge.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
