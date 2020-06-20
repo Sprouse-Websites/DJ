@@ -53,7 +53,7 @@
 	}
 }
 
-/* from http://codepen.io/ArtemGordinsky/pen/GnLBq */
+/* from https://codepen.io/ArtemGordinsky/pen/GnLBq */
 
 </style>
 <div id="beta-notice" class="blink-bold" style="background-color:yellow; text-align:center; padding:3pt;">
