@@ -3,6 +3,7 @@
 <html>
 <head>
 	<?php
+	define("version", "Alpha 0.1.11");
 	include 'config.php';
 	?>
 	<!-- Google Analytics -->
